@@ -9,13 +9,12 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
     printf("Number of args: %d\n", argc);
     int c;
     
     for (c=0; c<argc; c++) {
         printf("%s\n", argv[c]);
     }
-    printf("Hello, World!\n");
+    // printf("Hello World!\n");
     return 0;
 }
